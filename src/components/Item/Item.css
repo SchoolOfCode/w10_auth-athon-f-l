@@ -1,0 +1,7 @@
+.Item {
+    width: 200px;
+}
+
+.Item > img {
+    width: 180px;
+}
