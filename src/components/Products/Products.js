@@ -1,5 +1,6 @@
 import React, { useEffect,useState } from 'react'
 import Item from '../Item/Item';
+import './Products.css'
 
 export default function Products() {
 
@@ -19,7 +20,7 @@ export default function Products() {
   },[]);
 
   return (
-    <div>
+    <div className='products'>
       {products.map(function (product) {
           return (
             <Item key={product.id}

@@ -10,7 +10,7 @@ function App() {
       <Header />
       <main>
         <Products />
-        <div>
+        <div className='sidebar'>
           <Profile />
           <Basket />
         </div>
